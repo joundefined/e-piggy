@@ -1,0 +1,14 @@
+//* Write variables in _variables.scss and then import them to your file
+@import "variables";
+
+/* --------- Mobile --------- */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0 auto;
+}
+h4 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: rebeccapurple;
+}
