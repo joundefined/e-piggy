@@ -57,21 +57,25 @@
                         @endif
                         @else
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="/home">My Accounts <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/providers">Open Banking Providers <span class="sr-only">(current)</span></a>
                         </li>
 
                         <li class="nav-item dropdown dark">
                             <a class="nav-link dropdown-toggle --dark:" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                My Accounts
+                                Account Options
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Payment History</a>
-                                <a class="dropdown-item" href="#">Calculate Loan</a>
+                                <a class="dropdown-item" href="/history">Payment History</a>
+                                <a class="dropdown-item" href="/loan">Calculate Loan</a>
                             </div>
                         </li>
 
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Make Payment <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="/payout">Make Payment <span class="sr-only">(current)</span></a>
                         </li>
 
                         <li class="nav-item dropdown">

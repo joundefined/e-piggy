@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class OBProviderController extends Controller
+class PayoutController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class OBProviderController extends Controller
     public function index()
     {
         //
-        return view('OBProvider');
+        return view('Payout');
     }
 
     /**

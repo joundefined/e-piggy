@@ -23,6 +23,17 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
-//* Reporting a post
-// Route::get('/piggy', 'PiggyController@piggy');
+//* Test Page
 Route::get('/piggy', [App\Http\Controllers\PiggyController::class, 'piggy']);
+
+//* Providers Page
+Route::get('/providers', [App\Http\Controllers\OBProviderController::class, 'index']);
+
+//* Payment History Page
+Route::get('/history', [App\Http\Controllers\PaymentHistoryController::class, 'index']);
+
+//* Loan Page
+Route::get('/loan', [App\Http\Controllers\LoanController::class, 'index']);
+
+//* Payout Page
+Route::get('/payout', [App\Http\Controllers\PayoutController::class, 'index']);
