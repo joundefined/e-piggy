@@ -1,5 +1,9 @@
 Run "composer install" and/or "php artisan dump-autoload" to install dependencies and run the autoload if facing issues.
 
+Laravel builds automatically ("Piggy" is the slug):
+Controller: "php artisan make:controller PiggyController --resource"
+Model: "php artisan make:model Piggy"
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
