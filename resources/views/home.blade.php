@@ -13,8 +13,10 @@
                         {{ session('status') }}
                     </div>
                     @endif
-
-                    {{ __('You are logged in!') }}
+                    {{ __('You are logged in!') }}<br /><br />
+                    <form action="https://google.com">
+                        <input type="submit" value="let's go to the list" />
+                    </form>
                 </div>
             </div>
         </div>
