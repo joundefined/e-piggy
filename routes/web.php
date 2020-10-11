@@ -31,7 +31,7 @@ Route::get('/piggy', [App\Http\Controllers\PiggyController::class, 'piggy']);
 Route::get('/providers', [App\Http\Controllers\ObproviderController::class, 'index']);
 
 //* Payment History Page
-Route::get('/history', [App\Http\Controllers\TxnhistoryController::class, 'index']);
+Route::get('/history', [App\Http\Controllers\TxnhistorController::class, 'index']);
 
 //* Loan Page
 Route::get('/loan', [App\Http\Controllers\LoanController::class, 'index']);

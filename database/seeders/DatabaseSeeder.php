@@ -17,5 +17,6 @@ class DatabaseSeeder extends Seeder
 
         $this->call(ObprovidersSeeder::class);
         $this->call(AccountsSeeder::class);
+        $this->call(TxnhistorsSeeder::class);
     }
 }

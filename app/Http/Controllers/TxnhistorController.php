@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Txnhistor;
 use Illuminate\Http\Request;
 
-class TxnhistoryController extends Controller
+class TxnhistorController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +14,11 @@ class TxnhistoryController extends Controller
      */
     public function index()
     {
-        //
-        return view('Txnhistory');
+        // Using Eloquent ORM
+        $txnhistors = Txnhistor::all();
+        // dd($txnhistors);
+
+        return view('Txnhistor', ['txnhistors' => $txnhistors]);
     }
 
     /**

@@ -69,7 +69,7 @@
                                 Account Options
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/history">Payment History</a>
+                                <a class="dropdown-item" href="/history">Transaction History</a>
                                 <a class="dropdown-item" href="/loan">Calculate Loan</a>
                             </div>
                         </li>
