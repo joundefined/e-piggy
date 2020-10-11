@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Obprovider;
 use Illuminate\Http\Request;
 
-class ObproviderController extends Controller
+class TxnhistoryController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,11 +13,8 @@ class ObproviderController extends Controller
      */
     public function index()
     {
-        // Using Eloquent ORM
-        $providers = Obprovider::all();
-        // dd($providers);
-
-        return view('Obprovider', ['providers' => $providers]);
+        //
+        return view('Txnhistory');
     }
 
     /**

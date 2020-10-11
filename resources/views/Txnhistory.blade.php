@@ -2,5 +2,5 @@
 @extends('layouts.app')
 
 @section('content')
-<h1>Payment History</h1>
+<h1>Transaction History</h1>
 @endsection

@@ -27,10 +27,10 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/piggy', [App\Http\Controllers\PiggyController::class, 'piggy']);
 
 //* Providers Page
-Route::get('/providers', [App\Http\Controllers\OBProviderController::class, 'index']);
+Route::get('/providers', [App\Http\Controllers\ObproviderController::class, 'index']);
 
 //* Payment History Page
-Route::get('/history', [App\Http\Controllers\PaymentHistoryController::class, 'index']);
+Route::get('/history', [App\Http\Controllers\TxnhistoryController::class, 'index']);
 
 //* Loan Page
 Route::get('/loan', [App\Http\Controllers\LoanController::class, 'index']);
