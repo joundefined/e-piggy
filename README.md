@@ -4,6 +4,11 @@ Laravel builds automatically ("Piggy" is the slug):
 Controller: "php artisan make:controller PiggyController --resource"
 Model: "php artisan make:model Piggy"
 
+To automatically create table + data:
+Migrate: "php artisan migrate"
+Seed: "php artisan db:seed"
+Reinitialise: "php artisan migrate:refresh --seed"
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
