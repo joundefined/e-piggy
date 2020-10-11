@@ -94,6 +94,7 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+								 - Camille Hurion (advisor) <br />- Joanna Wong <br/> - Dorin Palanciuc <br/> - Swayam Sarkar <br /> - Mehdi Meknaci
                                 </div>
                             </div>
                         </div>
@@ -107,7 +108,7 @@
                     </div>
 
                     <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-                        Build v{{ Illuminate\Foundation\Application::VERSION }}
+                        Built with Laravel,  v{{ Illuminate\Foundation\Application::VERSION }}
                     </div>
                 </div>
             </div>
