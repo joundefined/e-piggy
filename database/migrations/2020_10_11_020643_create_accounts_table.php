@@ -19,9 +19,9 @@ class CreateAccountsTable extends Migration
             $table->id();
             $table->text('bank');
             $table->text('accounttype');
-            $table->string('iban')->nullable();
+            $table->string('iban');
             $table->string('currency');
-            $table->decimal('balance', 8, 2)->nullable();
+            $table->decimal('balance', 8, 2);
 
             $table->timestamps();
         });

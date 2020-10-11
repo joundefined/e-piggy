@@ -17,23 +17,23 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <th scope="col">Bank Account</th>
-                                <th scope="col">Account Balance</th>
+                                <th scope="col">Bank</th>
+                                <th scope="col">Account Type</th>
+                                <th scope="col">IBAN</th>
+                                <th scope="col">Currency</th>
+                                <th scope="col">Balance</th>
                             </tr>
                         </thead>
                         <tbody>
+                            @foreach($accounts as $account)
                             <tr>
-                                <td>Bank Account A</td>
-                                <td>1,000,000</td>
+                                <td>{{ $account->bank }}</td>
+                                <td>{{ $account->accounttype }}</td>
+                                <td>{{ $account->iban }}</td>
+                                <td>{{ $account->currency }}</td>
+                                <td>{{ $account->balance }}</td>
                             </tr>
-                            <tr>
-                                <td>Bank Account B</td>
-                                <td>2,000</td>
-                            </tr>
-                            <tr>
-                                <td>Bank Account C</td>
-                                <td>71,000</td>
-                            </tr>
+                            @endforeach
                         </tbody>
                     </table>
 

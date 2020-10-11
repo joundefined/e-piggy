@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Accounts;
 use Illuminate\Http\Request;
 
 class AccountsController extends Controller
@@ -43,9 +44,13 @@ class AccountsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
-        //
+        // Using Eloquent ORM
+        $accounts = Accounts::all();
+        // dd($providers);
+
+        return view('Home', ['accounts' => $accounts]);
     }
 
     /**
